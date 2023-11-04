@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  justify-content: space-evenly;
+  flex-direction: column;
+  min-height: 100vp;
+}
+
+.subcard {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.imagem {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.text {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 15px;
+  
+}
